@@ -1,0 +1,113 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body font settings */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-section,
+.contact-section,
+.social-media {
+    flex: 1;
+    padding: 20px;
+    max-width: 30%;
+    min-width: 250px;
+}
+
+/* About Section */
+.about-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.about-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+/* Contact Section */
+.contact-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.contact-section p {
+    font-size: 1rem;
+    color: #ddd;
+    margin-bottom: 10px;
+}
+
+.contact-section a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media Links */
+.social-media h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.social-media ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.social-media ul li {
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.social-media ul li a:hover {
+    color: #fff;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-section, .contact-section, .social-media {
+        max-width: 100%;
+        text-align: center;
+    }
+}
