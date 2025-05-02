@@ -16,6 +16,7 @@ const filterImage= i => {
             filter.classList.remove("hide")
         }
     });
+    
       
 };
 
