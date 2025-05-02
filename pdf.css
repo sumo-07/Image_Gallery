@@ -1,0 +1,213 @@
+/* *{
+    box-sizing: border-box;
+}
+.head h1{
+    margin: 0px;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    color: rgb(26, 26, 26);
+}
+
+.head{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    background-color: #a96432;
+    border-radius: 20px;
+
+}
+
+.container{
+    height: 40vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(221, 26, 26);
+    border-radius: 5px;
+}
+.box{
+    margin-top:5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #444;
+  }
+  
+  .upload {
+    margin-bottom: 20px;
+  }
+  
+  .upload input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    width: 300px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .upload input[type="file"]:hover {
+    border-color: #aaa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .convert button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .convert button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .convert button:active {
+    background-color: #003d80;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .convert button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   */
+
+
+
+   /* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+  }
+  
+  /* Header Styling */
+  .head {
+    background-color: #e04b19;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10vw;
+  }
+  
+  .head h1 {
+    color: white;
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  /* Container Box for Layout */
+  .box {
+    background-color: white;
+    width: 90%;
+    max-width: 500px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 35px;
+    text-align: center;
+  }
+  
+  /* Upload Section */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* File Upload Input */
+  .upload input[type="file"] {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 80%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s ease;
+  }
+  
+  .upload input[type="file"]:hover {
+    border-color: #e01919;
+    box-shadow: 0 0 8px #e04b19(0, 123, 255, 0.2);
+  }
+  
+  /* Convert Button */
+  .convert button {
+    padding: 12px 24px;
+    background-color: #e04b19;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s ease;
+  }
+  
+  .convert button:hover {
+    background-color: #c03815;
+    box-shadow: 0 4px 8px #e04b19(0, 123, 255, 0.3);
+  }
+  
+  .convert button:active {
+    background-color: #cd2900;
+  }
+  
+  .convert button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  
+  
