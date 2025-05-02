@@ -15,6 +15,7 @@ const filterImage= i => {
         if(filter.dataset.name === i.target.dataset.name || i.target.dataset.name === "All"){
             filter.classList.remove("hide")
         }
+        
     });
     
       
