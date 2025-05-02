@@ -21,3 +21,4 @@ const filterImage= i => {
 
 //Add click event listener to each event button
 filterButtons.forEach(button => button.addEventListener("click",filterImage));
+
